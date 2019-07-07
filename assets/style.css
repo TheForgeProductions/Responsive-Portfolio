@@ -1,0 +1,224 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+#navFull {
+    width: 100%;
+    border-bottom: grey;
+    border-bottom: solid #cccccc 1px;
+}
+
+#navContent {
+    width: 960px;
+    margin: auto;
+    display: flex;
+}
+
+#navTitle {
+    width: 250px;
+    height: 65px;
+    padding-top: 25px;
+    background: #4aaaa5;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navText {
+    padding-top: 40px;
+    text-align: right;
+    width: 710px;
+    font-size: 14pt;
+}
+
+.contentBackground {
+    background-image: url(images/marble-texture.jpg);
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    margin: 0px;
+    border-top: solid rgb(214, 214, 214) 1px;
+    padding-bottom: 120px;
+}
+
+.contentContainer {
+    width: 900px;
+    height: auto;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border: solid #dddddd;
+}
+
+h1 {
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    border-bottom: solid rgb(235, 235, 235) 1px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+.content {
+    padding-top: 5px;
+    color: #777777;
+}
+
+.topLeftImage {
+    float: left;
+    padding: 15px;
+    padding-left: 0;
+}
+
+footer {
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    background: rgb(102, 102, 102);
+    border-top: solid #4aaaa5 7px;
+    padding-top: 25px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+}
+
+input {
+    width: 800px;
+}
+
+#message {
+    border-color: #cccccc;
+}
+
+#portfolio {
+    padding: 25px;
+}
+
+#row1 {
+    display: flex;
+    margin: 5%;
+}
+
+#row2 {
+    display: flex;
+    margin: 5%;
+    z-index: 0;
+}
+
+#row3 {
+    margin: 5%;
+    z-index: 0;
+}
+
+.portfolioImage {
+    position: relative;
+    width: 275px;
+    height: 210px;
+    margin-right: auto;
+}
+
+.portfolioImage img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolioImage div {
+    position: absolute;
+    top: 60%;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 50;
+    background: #4aaaa5;
+    text-align: center;
+    float: left;
+    color: #ffffff;
+}
+
+.portfolioImageText {
+    color: #ffffff;
+    width: 210px;
+    padding-top: 25px;
+    font-size: 18pt;
+}
+
+@media screen and (max-width: 980px) {
+    .contentContainer {
+        width: 650px;
+    }
+    #navContent {
+        width: 650px    ;
+        margin: auto;
+        display: flex;
+    }
+    .navText {
+        padding-top: 40px;
+        text-align: right;
+        width: 400px;
+        font-size: 14pt;
+}
+
+@media screen and (max-width: 768px) {
+    .contentContainer {
+        width: 600px;
+    }
+    #navContent {
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+    #navTitle {
+        width: 250px;
+        height: 65px;
+        padding-top: 25px;
+    }
+    #navFull {
+        width: 600px;
+        margin: auto;
+    }
+    .navText {
+        padding-top: 40px;
+        text-align: right;
+        width: 400px;
+        font-size: 14pt;
+}
+@media screen and (max-width: 640px) {
+    .contentContainer {
+        width: 500px;
+    }
+    #navContent {
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+    #navTitle {
+        width: 250px;
+        height: 65px;
+        padding-top: 25px;
+    }
+    #navFull {
+        width: 500px;
+        margin: auto;
+    }
+    .navText {
+        padding-top: 40px;
+        text-align: right;
+        width: 300px;
+        font-size: 14pt;
+}
